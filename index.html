@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wall of fame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .main-nav{
+        background-color: black;
+        color: aliceblue;
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .nav-list{
+        width: 100vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #hero-section{
+        padding: 10px;
+    }
+  </style>
+  <body>
+    <div class="main-nav-container">
+      <nav class="main-nav">
+        <ul style="list-style: none;" class="nav-list">
+          <li class="nav-items">Home</li>
+          <li class="nav-items">About</li>
+          <li class="nav-items">Contact</li>
+        </ul>
+      </nav>
+    </div>
+
+    <section id="hero-section">
+        <h1>My Products</h1>
+    </section>
+    <div class="card-container" id="card-container"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
+s

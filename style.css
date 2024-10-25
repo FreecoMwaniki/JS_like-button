@@ -1,0 +1,56 @@
+*{
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.card-container{
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+.cardi{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 231, 30);
+    border-radius: 30px;
+    margin: 5px;
+    /* padding-left: 120px; */
+    
+    border: 3px solid red;
+    width: 242px;
+    box-sizing: border-box;
+    height: 259px;
+
+    
+}
+.cardi img{
+     /* justify-content: center; */
+    align-content: center;
+    width: 50% ;
+    height:40%;
+}
+.cardi h4 {
+text-align: center;
+
+
+
+}
+.cardi p{
+    text-align: center;
+}
+.cardi button{
+    
+    width: 100px;
+    position: absolute;
+
+}
